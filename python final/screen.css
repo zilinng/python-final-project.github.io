@@ -1,0 +1,28 @@
+#screen{
+    width: 9999px;
+    height: 9999px;
+    animation: 8s donghua infinite;
+}
+#screen img{
+        vertical-align : middle;
+}
+
+#tv{
+    position:absolute;
+    top:33%;
+    left:30%;
+    width : 627px;
+    height : 417px;
+    overflow: hidden;
+}
+@keyframes donghua {
+    0%{}
+    25%{transform : translateX(0px)}
+    35%{transform : translateX(-627px)}
+    50%{transform : translateX(-627px)}
+    60%{transform : translateX(-1254px)}
+    75%{transform : translateX(-1254px)}
+    85%{transform : translateX(-1881px)}
+    100%{transform : translateX(-1881px)}
+
+}
